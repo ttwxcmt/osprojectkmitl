@@ -1,0 +1,72 @@
+.body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.Calculator {
+    width: 315px;
+    height: 436px;
+    background-color: white;
+    margin: 0 auto;
+    top: 20px;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.result {
+    background-color: slategrey;
+    height: 120px;
+}
+
+.history-operand {
+    text-align: right;
+    height: 20px;
+    margin: 0 20px;
+    padding-top: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.output-operand {
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    font-size: 30px;
+}
+
+.num,
+.ope,
+.fun,
+.hut {
+    cursor: pointer;
+    width: 62px;
+    height: 62px;
+    margin: 0.5px;
+    float: left;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Calculator>button:focus {
+    outline: 0;
+}
+
+.Calculator>button:active {
+    font-size: 15px;
+}
+
+.num {
+    color: white;
+    background: #333333;
+}
+
+.fun {
+    color: black;
+    background: #a5a5a5;
+}
+
+.ope {
+    color: white;
+    background: #f1a33c;
+}
